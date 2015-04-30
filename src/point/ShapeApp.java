@@ -36,7 +36,7 @@ public class ShapeApp {
 		
 		System.out.println(c instanceof Shape);
 		
-		System.out.println(c instanceof Drawable);
+		System.out.println(c instanceof Visible);
 		
 		//Error
 		//System.out.println(c instanceof Rect);
