@@ -26,5 +26,23 @@ public class ShapeApp {
 //		
 //		rect.draw();
 //		circle.draw();
+		
+		//인터페이스 테스트
+//		Drawable drawable = new Point(10,20);
+//		drawable.draw();
+		
+		Circle c = new Circle();
+		System.out.println(c instanceof Circle);
+		
+		System.out.println(c instanceof Shape);
+		
+		System.out.println(c instanceof Drawable);
+		
+		//Error
+		//System.out.println(c instanceof Rect);
+		
+		Shape s = c;
+		System.out.println(s instanceof Rect);
+
 	}
 }
